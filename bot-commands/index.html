@@ -1,0 +1,304 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container d-flex flex-column">
+    <div class="header d-flex flex-column justify-content-between align-items-center">
+      <nav class="topmenu d-flex justify-content-center">
+        <a href="#about">About</a>
+        <div class="line align-self-center"></div>
+        <a href="#commands">Commands</a>
+        <div class="line align-self-center"></div>
+        <a href="https://www.patreon.com/KannaDev/">Donate</a>
+      </nav>
+      <div class=" server-info d-flex align-items-center flex-column text-center ">
+        <h1>KannaBot - Commands</h1>
+        <a class="links-suppressor join-btn btn-pill white " href="https://discordapp.com/oauth2/authorize?client_id=450118801816551424&permissions=8&scope=bot ">Invite Bot</a>
+      </div>
+    </div>
+    <div class="inner d-flex flex-column ">
+      <section class="d-flex justify-content-between flex-lg-nowrap flex-wrap " id="about ">
+        <div class="image image1 " style="flex-grow: 1; "></div>
+        <div class="text ">
+          <h2>About</h2>
+          <p>
+            <b>KannaBot</b>&nbsp;is a discord bot built with the discord.js library. Developed and maintained by
+            <b>
+              <a href="http://www.anirudhemmadi.com " target="_blank ">Anirudh Emmadi (Kanna)</a>
+            </b>. "I never planned on making a fully functional bot ", KannaBot was merely a summer coding project back in June
+            2018 but eventually with more suggestions and requests being made by users the bot became a fully functioning
+            discord bot.
+            <br/>
+            <br/>
+            <b>Currently the bot does the following functions:</b>
+            <br/>
+          </p>
+          <ul>
+            <li>Moderation - Report/Kick/Ban/Mute/Roles</li>
+            <li>Game Stats - Fortnite/Overwatch/League of Legends/Rocket League/many more...</li>
+            <li>Crypto - Global/Top10/Search</li>
+            <li>Meme - Random/Spam</li>
+            <li>Reddit - Search/Random</li>
+            <li>Jokes - Random/Spam</li>
+            <li>And much much more</li>
+          </ul>
+        </div>
+      </section>
+      <section class="d-flex justify-content-between flex-lg-nowrap flex-wrap flex-row-reverse " id="commands ">
+        <div class="image image2 " style="flex-grow: 1; "></div>
+        <div class="text ">
+          <h2>Command Syntaxes</h2>
+          <p>
+            <h3>
+              <b>General</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.help</b> ~ Displays all available commands</li>
+              <li>
+                <b>.info</b> ~ Displays bot and server info</li>
+            </ul>
+            <br>
+            <h3>
+              <b>Moderation</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.report</b>
+                <i>[usermention] [reason]</i> ~ Allows users to report another user
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .report @Drago#0542 swear words</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.kick</b>
+                <i>[usermention] [reason]</i> ~ Allows admin to kick users from server.
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .kick @koolDog#4932 breaking rules</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.ban</b>
+                <i>[usermention] [reason]</i>~ Allows admin to ban users from server.
+                <ul type='square'>
+                  <li>
+                    <b>.ban @DaBamboozle#7190 broke several rules</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.mute</b>
+                <i>[usermention] [time s/m/h/d]</i> ~ Allows admin to mute users on server.
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .mute @Pikachuu#6319 6h</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.role</b>
+                <i>[add/rmv] [usermention] [role-name]</i> ~ Allows admin to add/remove users to/from roles.
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .role add @hayabuzaYasuo#3552 Admin</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Game Stats</b>
+            </h3>
+            <h3>
+              <b>Fortnite</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.fbr</b>
+                <i>[epic-username] [platform pc/psn/xbl]</i> ~ Displays lifetime stats of user
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .fbr Ninja pc</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.fbr</b>
+                <i>[epic-username] [platform pc/psn/xbl] [mode all/season]</i> ~ Shows Solo/Duo/Squad stats (all) and Season
+                Solo/Duo/Squad stats (season)
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .fbr Ninja pc season</b>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>.fbr drop</b> ~ Randomly picks a spot on the fortnite map
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .fbr drop</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>
+              <b>League of Legends (BETA)</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.lol</b>
+                <i>[summoner-name]</i> ~ Basic league stats
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .lol parrot15</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>
+              <b>Overwatch</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.ow</b>
+                <i>[username#battleTag] [platfrom pc/psn/xbl]</i> ~ Overwatch profile stats
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .ow Finnsi#2664 pc</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>
+              <b>Rocket League</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.rl</b>
+                <i>[platform pc/psn/xbl] [id]</i> (id refers to the user's STEAMID64 (for pc), PSN Username (for ps4), and XboxGamerTag
+                (for XboxOne)) ~ Rocket League game stats
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .rl pc 76561198118691382 (the number is the STEAMID64 since I requested PC stats)</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Crypto</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.crypto</b> ~ Shows global cryptocurrency statistics
+              </li>
+              <li>
+                <b>.crypto top</b> ~ Displays top 10 crypto stats
+              </li>
+              <li>
+                <b>.crypto</b>
+                <i>[coin-name/symbol]</i> ~ Shows specific coin stats
+                <ul type='square'>
+                  <li>
+                    <b>Ex: .crypto eth (or) .crypto bitcoin</b>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Meme</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.meme</b> ~ Generates a random meme from reddit
+              </li>
+              <li>
+                <b>.meme</b>
+                <i>[number 2-10]</i> ~ Generates given number of random memes
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Joke</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.joke</b> ~ Gets a random dad joke
+              </li>
+              <li>
+                <b>.joke</b>
+                <i>[numer 2-10]</i> ~ Generates given number of random dad jokes
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Feedback</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.issue</b> ~ Report issues with bots
+              </li>
+              <li>
+                <b>.donate</b> ~ Donations to keep the bot alive :)
+              </li>
+            </ul>
+            <br>
+            <h3>
+              <b>Misc.</b>
+            </h3>
+            <ul>
+              <li>
+                <b>.8ball</b>
+                <i>[question?]</i> ~ Answers with a 8ball response
+              </li>
+              <li>
+                <b>.dog</b> ~ Random dog image/gif
+              </li>
+              <li>
+                <b>.cat</b> ~ Random cat image/gif
+              </li>
+              <li>
+                <b>.flip</b> ~ Flips a coin. Heads or Tails
+              </li>
+              <li>
+                <b>.roll</b> ~ Rolls a dice. 1,2,3,4,5,6
+              </li>
+            </ul>
+        </div>
+      </section>
+      <section class="join d-flex justify-content-center ">
+        <div class="line align-self-center " style="flex-grow: 1; "></div>
+        <a class="links-suppressor btn-pill white " href="https://www.patreon.com/KannaDev/">Donate</a>
+        <div class="line align-self-center " style="flex-grow: 1; "></div>
+      </section>
+    </div>
+    <div class="footer d-flex justify-content-between flex-lg-nowrap flex-wrap ">
+      <div class="d-flex ">
+        <div class="block d-flex flex-column justify-content-between ">
+          <h3 class="d-flex ">Developed By</h3>
+          <span>Anirudh Emmadi</span>
+        </div>
+        <div class="block d-flex flex-column justify-content-between ">
+          <h3 class="d-flex ">Developed Using</h3>
+          <span>Vanilla Javascript</span>
+          <span>Node.js</span>
+          <span>Discord.js</span>
+          <span>Superagent</span>
+          <span>Visual Studio Code</span>
+        </div>
+      </div>
+      <p class="align-self-end ">KannaBot is an open source project. Any donation made will only be used to further maintain and upgrade the bot. Copyright
+        2018 © Anirudh Emmadi. All Rights Reserved</p>
+    </div>
+  </div>
+</body>
+
+</html>
